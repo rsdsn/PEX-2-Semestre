@@ -1,21 +1,18 @@
 Projeto de Extensão: Sistema de cadastro de doações — ONG CAINE
-Aluno: Roberto Neto 
+
+Aluno: Roberto Neto (ADS) - Faculdade Descomplica
+
+Descrição do projeto: Este projeto consiste em um protótipo funcional de um sistema simples de gerenciamento de doações, desenvolvido como parte do Projeto de Extensão. O objetivo é apoiar a ONG CAINE, que atende pessoas com deficiência e TEA, permitindo um maior controle e organização das doações recebidas
 
 Requisitos:
-- Node.js (versão 14+)
-- npm
 
+Node.js (versão 14+)
+npm
 Instalação backend:
-1. cd backend
-2. npm install
-3. npm run dev   # (usa nodemon) ou npm start
 
-A API roda em http://localhost:3000
-
+cd backend
+npm install
+npm run dev
 Instalação frontend:
-1. cd frontend
-2. Abra index.html no navegador (ou rode um servidor estático)
 
-Observações:
-- Banco usado: SQLite (arquivo caine.db gerado automaticamente no backend)
-- O schema está em backend/schema.sql (executado automaticamente ao iniciar)
+Abra index.html no navegador

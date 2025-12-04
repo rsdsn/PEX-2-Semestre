@@ -6,8 +6,9 @@ Descrição do projeto: Este projeto consiste em um protótipo funcional de um s
 
 Requisitos:
 
-Node.js (versão 14+)
-npm
+- Node.js (versão 14+)
+
+- npm
 
 Instalação backend:
 

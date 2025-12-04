@@ -8,11 +8,13 @@ Requisitos:
 
 Node.js (versão 14+)
 npm
+
 Instalação backend:
 
-cd backend
-npm install
-npm run dev
+1. cd backend
+2. npm install
+3. npm run dev
+
 Instalação frontend:
 
-Abra index.html no navegador
+1. Abra index.html no navegador

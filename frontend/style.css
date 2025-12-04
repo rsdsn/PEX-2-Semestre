@@ -1,0 +1,79 @@
+/* Paleta */
+:root {
+  --azul: #1e88e5;
+  --amarelo: #fdd835;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: var(--azul);
+}
+
+.sub {
+  text-align: center;
+  color: #444;
+  margin-top: 0;
+}
+
+.card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  border-left: 6px solid var(--amarelo);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+  margin: 20px 0;
+}
+
+form input, form select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form button,
+.filters button {
+  background: var(--azul);
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  max-width: 200px;
+}
+
+.msg {
+  margin-top: 8px;
+  color: green;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#lista .item {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.small {
+  color: #555;
+  font-size: 13px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sistema de Doações - ONG CAINE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>ONG CAINE — Sistema de Doações</h1>
+    <p class="sub">PCD e TEA — 25 anos transformando vidas</p>
+
+    <section class="card">
+      <h2>Registrar doador</h2>
+      <form id="formDoador">
+        <input type="text" id="nome" placeholder="Nome" required />
+        <input type="text" id="telefone" placeholder="Telefone" />
+        <input type="email" id="email" placeholder="Email" />
+        <button type="submit">Cadastrar Doador</button>
+      </form>
+      <div id="msgDoador" class="msg"></div>
+    </section>
+
+    <section class="card">
+      <h2>Registrar doação</h2>
+      <form id="formDoacao">
+        <select id="doador_id">
+          <option value="">— Selecionar doador —</option>
+        </select>
+        <select id="tipo">
+          <option value="material">Material</option>
+          <option value="financeira">Financeira</option>
+        </select>
+        <input id="descricao" placeholder="Descrição do item ou observação" />
+        <input id="quantidade" type="number" placeholder="Quantidade (material)" min="1" value="1" />
+        <input id="valor" placeholder="Valor (financeira)" />
+        <input id="data" type="date" required />
+        <button type="submit">Registrar Doação</button>
+      </form>
+      <div id="msgDoacao" class="msg"></div>
+    </section>
+
+    <section class="card">
+      <h2>Listagem de doações</h2>
+      <div class="filters">
+        <select id="filtroTipo">
+          <option value="">Todos</option>
+          <option value="material">Material</option>
+          <option value="financeira">Financeira</option>
+        </select>
+        <input id="fdataIni" type="date" />
+        <input id="fdataFim" type="date" />
+        <button id="btnFiltrar">Filtrar</button>
+      </div>
+      <div id="lista"></div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
